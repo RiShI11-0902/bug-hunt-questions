@@ -1,9 +1,9 @@
-[
- {
+ [
+{
     id: "bug_1",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the bug causing incorrect comparison:",
     code: [
       "const price = 0.1 + 0.2;",
@@ -17,9 +17,9 @@
   },
   {
     id: "bug_2",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Which line introduces unintended side effects?",
     code: [
       "let cartItems = ['apple', 'banana'];",
@@ -33,9 +33,9 @@
   },
   {
     id: "bug_3",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Why does this async code not work as expected?",
     code: [
       "async function fetchData() {",
@@ -49,9 +49,9 @@
   },
   {
     id: "bug_4",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the logical bug in condition:",
     code: [
       "const isLoggedIn = false;",
@@ -65,9 +65,9 @@
   },
   {
     id: "bug_5",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the bug in this equality check:",
     code: [
       "function checkAge(age) {",
@@ -84,9 +84,9 @@
   },
   {
     id: "bug_6",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "What's wrong with this variable reference?",
     code: [
       "function calculateTotal(price, qty) {",
@@ -102,9 +102,9 @@
   },
   {
     id: "bug_7",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the off-by-one error:",
     code: [
       "function printItems(items) {",
@@ -119,9 +119,9 @@
   },
   {
     id: "bug_8",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Why doesn't this function return a value?",
     code: [
       "function double(num) {",
@@ -136,9 +136,9 @@
   },
   {
     id: "bug_9",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the logic error in this even check:",
     code: [
       "function isEven(number) {",
@@ -155,9 +155,9 @@
   },
   {
     id: "bug_10",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this greeting function?",
     code: [
       "function greet(name) {",
@@ -171,9 +171,9 @@
   },
   {
     id: "bug_11",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the array index bug:",
     code: [
       "function getFirst(arr) {",
@@ -189,9 +189,9 @@
   },
   {
     id: "bug_12",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Spot the boolean logic error:",
     code: [
       "function canVote(age, citizen) {",
@@ -207,9 +207,9 @@
   },
   {
     id: "bug_13",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Why doesn't this async function work?",
     code: [
       "async function fetchUser(id) {",
@@ -224,9 +224,9 @@
   },
   {
     id: "bug_14",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the typo in this method call:",
     code: [
       "function getLength(str) {",
@@ -242,9 +242,9 @@
   },
   {
     id: "bug_15",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this comparison?",
     code: [
       "function findMax(a, b) {",
@@ -260,9 +260,9 @@
   },
   {
     id: "bug_16",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Find the semicolon bug:",
     code: [
       "function sum(numbers) {",
@@ -278,9 +278,9 @@
   },
   {
     id: "bug_17",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the increment error:",
     code: [
       "function countdown(n) {",
@@ -297,9 +297,9 @@
   },
   {
     id: "bug_18",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Find the null check bug:",
     code: [
       "function getName(user) {",
@@ -315,9 +315,9 @@
   },
   {
     id: "bug_19",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this map callback?",
     code: [
       "function doubleAll(nums) {",
@@ -332,9 +332,9 @@
   },
   {
     id: "bug_20",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the method name typo:",
     code: ["function capitalize(str) {", "  return str.toUppercase();", "}"],
     bugLineIndex: 1,
@@ -343,9 +343,9 @@
   },
   {
     id: "bug_21",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Spot the undefined variable:",
     code: [
       "function greetUser() {",
@@ -358,9 +358,9 @@
   },
   {
     id: "bug_22",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the wrong array method:",
     code: [
       "function addItem(arr, item) {",
@@ -374,9 +374,9 @@
   },
   {
     id: "bug_23",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Why is await missing here?",
     code: [
       "async function getData() {",
@@ -391,9 +391,9 @@
   },
   {
     id: "bug_24",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the loop direction error:",
     code: [
       "function reverseArray(arr) {",
@@ -408,9 +408,9 @@
   },
   {
     id: "bug_25",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the type coercion bug:",
     code: [
       "function isZero(value) {",
@@ -426,9 +426,9 @@
   },
   {
     id: "bug_26",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the property name typo:",
     code: ["function getEmail(user) {", "  return user.emial;", "}"],
     bugLineIndex: 1,
@@ -436,9 +436,9 @@
   },
   {
     id: "bug_27",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this else block?",
     code: [
       "function calculate(x) {",
@@ -454,9 +454,9 @@
   },
   {
     id: "bug_28",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the filter logic error:",
     code: [
       "function getPositive(nums) {",
@@ -469,9 +469,9 @@
   },
   {
     id: "bug_29",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "What's missing from this reduce?",
     code: [
       "function sumAll(nums) {",
@@ -484,9 +484,9 @@
   },
   {
     id: "bug_30",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the destructuring typo:",
     code: [
       "function getInfo(person) {",
@@ -499,9 +499,9 @@
   },
   {
     id: "bug_31",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Spot the switch case bug:",
     code: [
       "function getDay(num) {",
@@ -519,9 +519,9 @@
   },
   {
     id: "bug_32",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Find the promise chain error:",
     code: [
       "function loadData() {",
@@ -536,9 +536,9 @@
   },
   {
     id: "bug_33",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this ternary?",
     code: [
       "function getStatus(active) {",
@@ -551,9 +551,9 @@
   },
   {
     id: "bug_34",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the split delimiter error:",
     code: [
       "function getWords(sentence) {",
@@ -566,9 +566,9 @@
   },
   {
     id: "bug_35",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Spot the method name typo:",
     code: ["function joinWords(words) {", '  return words.jion(" ");', "}"],
     bugLineIndex: 1,
@@ -576,9 +576,9 @@
   },
   {
     id: "bug_36",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the indexOf comparison bug:",
     code: [
       "function hasItem(arr, item) {",
@@ -592,9 +592,9 @@
   },
   {
     id: "bug_37",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this arrow function?",
     code: ["const square = (x) = {", "  return x * x;", "};"],
     bugLineIndex: 0,
@@ -603,9 +603,9 @@
   },
   {
     id: "bug_38",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the template literal bug:",
     code: [
       "function welcome(name) {",
@@ -619,9 +619,9 @@
   },
   {
     id: "bug_39",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the object spread order bug:",
     code: [
       "function updateUser(user, data) {",
@@ -635,9 +635,9 @@
   },
   {
     id: "bug_40",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "What does push() return?",
     code: ["function addAndGet(arr, item) {", "  return arr.push(item);", "}"],
     bugLineIndex: 1,
@@ -646,9 +646,9 @@
   },
   {
     id: "bug_41",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the parseInt bug:",
     code: ["function parseAge(str) {", "  return parseInt(str);", "}"],
     bugLineIndex: 1,
@@ -657,9 +657,9 @@
   },
   {
     id: "bug_42",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this setTimeout?",
     code: [
       "function delayLog(msg) {",
@@ -672,9 +672,9 @@
   },
   {
     id: "bug_43",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the event name error:",
     code: [
       "function setupClick(btn, handler) {",
@@ -687,9 +687,9 @@
   },
   {
     id: "bug_44",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the Math.random bug:",
     code: [
       "function getRandom(max) {",
@@ -702,9 +702,9 @@
   },
   {
     id: "bug_45",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with Object.keys call?",
     code: ["function getKeys(obj) {", "  return obj.keys();", "}"],
     bugLineIndex: 1,
@@ -713,9 +713,9 @@
   },
   {
     id: "bug_46",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the includes typo:",
     code: [
       "function hasApple(fruits) {",
@@ -727,9 +727,9 @@
   },
   {
     id: "bug_47",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Spot the trim typo:",
     code: ["function clean(str) {", "  return str.trім();", "}"],
     bugLineIndex: 1,
@@ -738,9 +738,9 @@
   },
   {
     id: "bug_48",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Find the constructor bug:",
     code: [
       "class Person {",
@@ -754,9 +754,9 @@
   },
   {
     id: "bug_49",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with JSON method?",
     code: ["function parseData(str) {", "  return JSON.Parse(str);", "}"],
     bugLineIndex: 1,
@@ -769,9 +769,9 @@
   // ======================
   {
     id: "bug_50",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the bug in binary search loop condition:",
     code: [
       "function binarySearch(arr, target) {",
@@ -791,9 +791,9 @@
   },
   {
     id: "bug_51",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the missing Math.floor in binary search:",
     code: [
       "function binarySearch(arr, target) {",
@@ -813,9 +813,9 @@
   },
   {
     id: "bug_52",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.EASY,
+    difficulty: "easy",
     question: "Find the wrong method in stack pop:",
     code: [
       "class Stack {",
@@ -831,9 +831,9 @@
   },
   {
     id: "bug_53",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.EASY,
+    difficulty: "easy",
     question: "Find the wrong method in queue dequeue:",
     code: [
       "class Queue {",
@@ -849,9 +849,9 @@
   },
   {
     id: "bug_54",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the linked list traversal bug:",
     code: [
       "function insertAtEnd(head, val) {",
@@ -869,9 +869,9 @@
   },
   {
     id: "bug_55",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the slow/fast pointer bug:",
     code: [
       "function findMiddle(head) {",
@@ -889,9 +889,9 @@
   },
   {
     id: "bug_56",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the missing base case in recursion:",
     code: ["function factorial(n) {", "  return n * factorial(n - 1);", "}"],
     bugLineIndex: 1,
@@ -900,9 +900,9 @@
   },
   {
     id: "bug_57",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the incomplete fibonacci base case:",
     code: [
       "function fibonacci(n) {",
@@ -916,9 +916,9 @@
   },
   {
     id: "bug_58",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the bubble sort optimization bug:",
     code: [
       "function bubbleSort(arr) {",
@@ -938,9 +938,9 @@
   },
   {
     id: "bug_59",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the selection sort min index bug:",
     code: [
       "function selectionSort(arr) {",
@@ -960,9 +960,9 @@
   },
   {
     id: "bug_60",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the two pointer movement bug:",
     code: [
       "function twoSum(arr, target) {",
@@ -982,9 +982,9 @@
   },
   {
     id: "bug_61",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.EASY,
+    difficulty: "easy",
     question: "Spot the hash table increment bug:",
     code: [
       "function countFrequency(arr) {",
@@ -1001,9 +1001,9 @@
   },
   {
     id: "bug_62",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Find the tree inorder traversal bug:",
     code: [
       "function inorder(node, result = []) {",
@@ -1020,9 +1020,9 @@
   },
   {
     id: "bug_63",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the array rotation bug:",
     code: [
       "function rotateRight(arr, k) {",
@@ -1037,9 +1037,9 @@
   },
   {
     id: "bug_64",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Find the max subarray bug:",
     code: [
       "function maxSubArray(nums) {",
@@ -1057,9 +1057,9 @@
   },
   {
     id: "bug_65",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Spot the DFS visited bug:",
     code: [
       "function dfs(graph, node, visited = new Set()) {",
@@ -1075,9 +1075,9 @@
   },
   {
     id: "bug_66",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Find the DP memoization bug:",
     code: [
       "function climbStairs(n, memo = {}) {",
@@ -1093,9 +1093,9 @@
   },
   {
     id: "bug_67",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the heap sorting bug:",
     code: [
       "function findKthLargest(nums, k) {",
@@ -1114,9 +1114,9 @@
   },
   {
     id: "bug_68",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the sliding window bounds bug:",
     code: [
       "function maxSumSubarray(arr, k) {",
@@ -1137,9 +1137,9 @@
   },
   {
     id: "bug_69",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Spot the greedy coin change bug:",
     code: [
       "function coinChange(coins, amount) {",
@@ -1158,9 +1158,9 @@
   },
   {
     id: "bug_70",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Find the bug causing incorrect comparison:",
     code: [
       "const price = 0.1 + 0.2;",
@@ -1174,9 +1174,9 @@
   },
   {
     id: "bug_71",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Which line introduces unintended side effects?",
     code: [
       "let cartItems = ['apple', 'banana'];",
@@ -1190,9 +1190,9 @@
   },
   {
     id: "bug_3",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Why does this async code not work as expected?",
     code: [
       "async function fetchData() {",
@@ -1206,9 +1206,9 @@
   },
   {
     id: "bug_72",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Spot the logical bug in condition:",
     code: [
       "const isLoggedIn = false;",
@@ -1222,9 +1222,9 @@
   },
   {
     id: "bug_73",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the bug in this binary search implementation:",
     code: [
       "function binarySearch(arr, target) {",
@@ -1244,9 +1244,9 @@
   },
   {
     id: "bug_74",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.EASY,
+    difficulty: "easy",
     question: "What's wrong with this stack pop operation?",
     code: [
       "class Stack {",
@@ -1262,9 +1262,9 @@
   },
   {
     id: "bug_75",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Find the infinite loop bug:",
     code: [
       "function reverseLinkedList(head) {",
@@ -1283,9 +1283,9 @@
   },
   {
     id: "bug_76",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Identify the closure bug:",
     code: [
       "for (var i = 0; i < 3; i++) {",
@@ -1300,9 +1300,9 @@
   },
   {
     id: "bug_77",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Find the bug in this DFS implementation:",
     code: [
       "function dfs(graph, node, visited) {",
@@ -1320,9 +1320,9 @@
   },
   {
     id: "bug_78",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "What's wrong with this event listener?",
     code: [
       "const button = document.querySelector('button');",
@@ -1334,9 +1334,9 @@
   },
   {
     id: "bug_79",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Spot the bug in this merge sort:",
     code: [
       "function mergeSort(arr) {",
@@ -1353,9 +1353,9 @@
   },
   {
     id: "bug_80",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the type coercion bug:",
     code: [
       "const userInput = '5';",
@@ -1368,9 +1368,9 @@
   },
   {
     id: "bug_81",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "What's wrong with this queue dequeue?",
     code: [
       "class Queue {",
@@ -1386,9 +1386,9 @@
   },
   {
     id: "bug_82",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.HARD,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "hard",
     question: "Find the memory leak:",
     code: [
       "function createHandler() {",
@@ -1405,9 +1405,9 @@
   },
   {
     id: "bug_83",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "Spot the off-by-one error:",
     code: [
       "function findMax(arr) {",
@@ -1424,9 +1424,9 @@
   },
   {
     id: "bug_84",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the this binding bug:",
     code: [
       "const user = {",
@@ -1444,9 +1444,9 @@
   },
   {
     id: "bug_85",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.HARD,
+    difficulty: "hard",
     question: "Find the bug in this tree traversal:",
     code: [
       "function inorderTraversal(root) {",
@@ -1462,9 +1462,9 @@
   },
   {
     id: "bug_86",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.MEDIUM,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "medium",
     question: "Identify the hoisting bug:",
     code: ["console.log(name);", "var name = 'John';", "console.log(name);"],
     bugLineIndex: 0,
@@ -1473,9 +1473,9 @@
   },
   {
     id: "bug_87",
-    type: QUESTION_TYPE.BUG_HUNTER,
+    type: "BUG_HUNTER",
     topic: TOPICS.DSA,
-    difficulty: DIFFICULTY.MEDIUM,
+    difficulty: "medium",
     question: "What's wrong with this hash table?",
     code: [
       "class HashTable {",
@@ -1491,9 +1491,9 @@
   },
   {
     id: "bug_88",
-    type: QUESTION_TYPE.BUG_HUNTER,
-    topic: TOPICS.CODING,
-    difficulty: DIFFICULTY.EASY,
+    type: "BUG_HUNTER",
+    topic: "coding",
+    difficulty: "easy",
     question: "Find the scope bug:",
     code: [
       "function test() {",
